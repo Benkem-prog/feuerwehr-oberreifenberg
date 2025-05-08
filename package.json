@@ -1,5 +1,5 @@
 {
-  "name": "feuerwehr-oberreifenberg",
+  "name": "feuerwehr-website",
   "version": "1.0.0",
   "scripts": {
     "start": "eleventy --serve",
