@@ -1,7 +1,6 @@
 {
   "name": "feuerwehr-oberreifenberg",
   "version": "1.0.0",
-  "description": "Offizielle Website der Freiwilligen Feuerwehr Oberreifenberg",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy"
