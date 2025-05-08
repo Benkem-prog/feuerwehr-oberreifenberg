@@ -1,11 +1,4 @@
-{
-  "name": "feuerwehr-website",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "npx tailwindcss -i ./input.css -o ./styles/tailwind.css --minify"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "tailwindcss": "^3.3.0"
-  }
+"scripts": {
+  "build": "npx tailwindcss -i ./input.css -o ./styles/tailwind.css --minify && eleventy",
+  "start": "eleventy --serve"
 }
